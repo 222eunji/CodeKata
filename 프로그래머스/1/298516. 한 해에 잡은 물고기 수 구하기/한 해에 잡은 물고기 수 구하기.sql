@@ -1,0 +1,3 @@
+SELECT count(*) AS FISH_COUNT
+FROM fish_info
+WHERE YEAR(TIME) = 2021
